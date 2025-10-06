@@ -2,9 +2,9 @@ Health-Monitor – Arhitectura completă (gratuită)
 
 Tehnologii principale
 - Frontend: React.js
-- Backend: C# (.NET Core / .NET 7)
-- Baza de date: MySQL Community Edition (sau SQLite local)
-- Autentificare: Firebase Authentication Free Tier (email/parolă, Google, Apple)
+- Backend: Node.Js (Express)
+- Baza de date: NoSQL MongoDB
+- Autentificare: Express, Node.Js cu email nume parola si verificare adresa email 
 - Grafice: Chart.js sau Recharts
 - Calendar activități: React Calendar
 - Export date: jsPDF (PDF), CSV manual
@@ -20,7 +20,6 @@ Structura aplicației și module
 
 2. Autentificare / Înregistrare
 - Autentificare email/parolă
-- Autentificare Google / Apple (Firebase Auth Free Tier)
 - Validări de securitate (minim 6 caractere parolă, verificare email)
 
 3. Panou principal (Dashboard)
@@ -70,7 +69,7 @@ Structura aplicației și module
 - Posibilități personalizare grafice / dashboard
 
 Structură folder proiect sugerată
-Health-Monitor/
+Health_Monitor/
 ├─ frontend/
 │  ├─ src/
 │  │  ├─ components/
@@ -87,7 +86,7 @@ Health-Monitor/
 │  ├─ Program.cs
 │  └─ Startup.cs
 ├─ database/
-│  └─ MySQL.sql (sau SQLite DB)
+│  └─ NySQL.sql (sau SQLite DB)
 ├─ docs/
 │  └─ architecture.txt (acest fișier)
 └─ README.md

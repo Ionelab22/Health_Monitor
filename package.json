@@ -2,7 +2,7 @@
   "name": "health-monitor",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://turbomatrixxxl.github.io/Health-Monitor/",
+  "homepage": "https://Ionelab22.github.io/Health_Monitor/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.0",
     "@fortawesome/free-brands-svg-icons": "^6.7.0",
@@ -17,7 +17,6 @@
     "axios": "^1.7.7",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
-    "gh-pages": "^6.1.1",
     "immer": "^10.1.1",
     "jspdf": "^3.0.3",
     "jspdf-autotable": "^5.0.2",
@@ -67,6 +66,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "gh-pages": "^6.3.0"
   }
 }
