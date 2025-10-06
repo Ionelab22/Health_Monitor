@@ -1,7 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-axios.defaults.baseURL = "https://https://health-monitor-node.onrender.com/";
+axios.defaults.baseURL = "https://health-monitor-node.onrender.com/";
 
 const setAuthHeader = () => {
   const token = localStorage.getItem("token")
