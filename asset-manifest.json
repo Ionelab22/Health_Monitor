@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/Health_Monitor/static/css/main.9f69cd6e.css",
-    "main.js": "/Health_Monitor/static/js/main.fb9c861b.js",
-    "static/css/330.7a4f1c6f.chunk.css": "/Health_Monitor/static/css/330.7a4f1c6f.chunk.css",
-    "static/js/330.2c2f59c4.chunk.js": "/Health_Monitor/static/js/330.2c2f59c4.chunk.js",
+    "main.js": "/Health_Monitor/static/js/main.c76ac172.js",
+    "static/css/330.6513a04f.chunk.css": "/Health_Monitor/static/css/330.6513a04f.chunk.css",
+    "static/js/330.48e66768.chunk.js": "/Health_Monitor/static/js/330.48e66768.chunk.js",
     "static/css/948.4d90aa48.chunk.css": "/Health_Monitor/static/css/948.4d90aa48.chunk.css",
     "static/js/948.a04531f8.chunk.js": "/Health_Monitor/static/js/948.a04531f8.chunk.js",
     "static/css/143.84701f96.chunk.css": "/Health_Monitor/static/css/143.84701f96.chunk.css",
@@ -43,9 +43,9 @@
     "static/media/gen-heart-rate-svgrepo-com.svg": "/Health_Monitor/static/media/gen-heart-rate-svgrepo-com.69a828d7c44136d6ae22f649a97feaf9.svg",
     "index.html": "/Health_Monitor/index.html",
     "main.9f69cd6e.css.map": "/Health_Monitor/static/css/main.9f69cd6e.css.map",
-    "main.fb9c861b.js.map": "/Health_Monitor/static/js/main.fb9c861b.js.map",
-    "330.7a4f1c6f.chunk.css.map": "/Health_Monitor/static/css/330.7a4f1c6f.chunk.css.map",
-    "330.2c2f59c4.chunk.js.map": "/Health_Monitor/static/js/330.2c2f59c4.chunk.js.map",
+    "main.c76ac172.js.map": "/Health_Monitor/static/js/main.c76ac172.js.map",
+    "330.6513a04f.chunk.css.map": "/Health_Monitor/static/css/330.6513a04f.chunk.css.map",
+    "330.48e66768.chunk.js.map": "/Health_Monitor/static/js/330.48e66768.chunk.js.map",
     "948.4d90aa48.chunk.css.map": "/Health_Monitor/static/css/948.4d90aa48.chunk.css.map",
     "948.a04531f8.chunk.js.map": "/Health_Monitor/static/js/948.a04531f8.chunk.js.map",
     "143.84701f96.chunk.css.map": "/Health_Monitor/static/css/143.84701f96.chunk.css.map",
@@ -79,6 +79,6 @@
   },
   "entrypoints": [
     "static/css/main.9f69cd6e.css",
-    "static/js/main.fb9c861b.js"
+    "static/js/main.c76ac172.js"
   ]
 }
