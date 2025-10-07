@@ -163,15 +163,17 @@ export default function CalculatorPage() {
                     </p>
                     <div className={styles.line}></div>
                     <p className={styles.notEat}>Foods you should not eat</p>
-                    <ol className={styles.list}>
-                      {user?.dietaryInfo?.restrictedAliments?.length > 0 ? (
-                        user?.dietaryInfo?.restrictedAliments?.map((item) => (
+
+                    {user?.dietaryInfo?.restrictedAliments?.length > 0 ? (
+                      <ol className={styles.list}>
+                        {user?.dietaryInfo?.restrictedAliments?.map((item) => (
                           <li key={item._id}>{item.title}</li>
-                        ))
-                      ) : (
-                        <p className={styles.empty}>No foods listed</p>
-                      )}
-                    </ol>
+                        ))}
+                      </ol>
+                    ) : (
+                      <p className={styles.empty}>No foods listed</p>
+                    )}
+
                     <Link className={styles.link} to="/">
                       <Button
                         handleClick={() => {
